@@ -1,5 +1,58 @@
 .Comentario {
-    background-color: rgb(206, 247, 247);
-    margin-bottom: 2rem;
-    border: 1px solid #555;
+    background-color: rgb(229 247 228);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.Comentario .avatar {
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: .5rem;
+    margin-left: .1rem;
+}
+
+.Comentario .conteudo {
+    margin-left: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.Comentario .conteudo .nome {
+    font-size: 1rem;
+    margin: .5rem 0 .25rem 0;
+    color: #243850;
+}
+
+.Comentario .conteudo .email{
+   color: rgb(10, 73, 248);
+}
+
+.Comentario .conteudo .mensagem{
+    color: rgb(81, 86, 99);
+    margin: .5rem 0;
+ }
+
+ .Comentario .conteudo .data{
+    color: rgb(81, 86, 99);
+    text-align: right;
+    margin-right: 5px;
+    font-size: xx-small;
+ }
+
+ .Comentario .conteudo .button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background: none;
+    color: black;
+    font-size: 1rem;
+ }
+.checkbox{
+    margin-left: 20px;
 }
